@@ -7,7 +7,6 @@ help:
 
 # Run go linting
 linting:
- - export GOFLAGS="-go=1.22"
  - goimports -w ./...
  - go fmt ./...
  - go vet ./...
@@ -24,5 +23,4 @@ setup:
 
 # Fix imports
 fix-imports:
-  export GOFLAGS="-go=1.22"
   goimports -w .
