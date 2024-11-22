@@ -1,6 +1,6 @@
 module github.com/ocfl-archive/error
 
-go 1.22
+go 1.23.3
 
 require (
 	emperror.dev/emperror v0.33.0
